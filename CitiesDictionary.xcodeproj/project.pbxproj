@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4434EA92465FD1E00191016 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4434EA82465FD1E00191016 /* CustomButton.swift */; };
+		F4434EAB2466039C00191016 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4434EAA2466039C00191016 /* ButtonExtension.swift */; };
 		F470DD99246365F100869F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470DD98246365F100869F13 /* AppDelegate.swift */; };
 		F470DD9B246365F100869F13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470DD9A246365F100869F13 /* SceneDelegate.swift */; };
 		F470DD9D246365F100869F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470DD9C246365F100869F13 /* ViewController.swift */; };
 		F470DDA0246365F100869F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F470DD9E246365F100869F13 /* Main.storyboard */; };
 		F470DDA2246365F700869F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F470DDA1246365F700869F13 /* Assets.xcassets */; };
 		F470DDA5246365F700869F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F470DDA3246365F700869F13 /* LaunchScreen.storyboard */; };
+		F470DDAD24647C5A00869F13 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = F470DDAC24647C5A00869F13 /* Building.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4434EA82465FD1E00191016 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F4434EAA2466039C00191016 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 		F470DD95246365F000869F13 /* CitiesDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiesDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F470DD98246365F100869F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F470DD9A246365F100869F13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		F470DDA1246365F700869F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F470DDA4246365F700869F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F470DDA6246365F800869F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F470DDAC24647C5A00869F13 /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				F470DD98246365F100869F13 /* AppDelegate.swift */,
 				F470DD9A246365F100869F13 /* SceneDelegate.swift */,
 				F470DD9C246365F100869F13 /* ViewController.swift */,
+				F470DDAC24647C5A00869F13 /* Building.swift */,
 				F470DD9E246365F100869F13 /* Main.storyboard */,
+				F4434EAA2466039C00191016 /* ButtonExtension.swift */,
+				F4434EA82465FD1E00191016 /* CustomButton.swift */,
 				F470DDA1246365F700869F13 /* Assets.xcassets */,
 				F470DDA3246365F700869F13 /* LaunchScreen.storyboard */,
 				F470DDA6246365F800869F13 /* Info.plist */,
@@ -141,6 +150,9 @@
 				F470DD9D246365F100869F13 /* ViewController.swift in Sources */,
 				F470DD99246365F100869F13 /* AppDelegate.swift in Sources */,
 				F470DD9B246365F100869F13 /* SceneDelegate.swift in Sources */,
+				F4434EAB2466039C00191016 /* ButtonExtension.swift in Sources */,
+				F470DDAD24647C5A00869F13 /* Building.swift in Sources */,
+				F4434EA92465FD1E00191016 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.CitiesDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.CitiesDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -70,16 +70,17 @@ class ViewController: UIViewController {
 	}
 	
 	@IBAction func textField(_ sender: UITextField) {
-		 
+		
 		
 		if let arrayOfPlaces: [TheEightWonders] = WonderOfTheWorld[zone] {   //Do this in textFieldDidEndEditing.
 			for place: TheEightWonders in arrayOfPlaces {
-				
+				wonderImageView.image = UIImage(named: place.image)
+				wonderLabel.text = "\(place.name)";
 				
 				print("\(place.name) with image file \(place.image).jpg is on \(zone) Street.");
 			}
 		} else {
-			print("\(zone) Street has no noteworthy buildings.");
+			print("\(zone) is not a Wonder of the World");
 		}
 	}
 	
